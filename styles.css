@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Outbound Engine | Ambizion Media</title>
+<meta name="description" content="The done-with-you outbound system for coaches and agencies selling high-ticket offers.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <div class="brandmark">Ambizion <span>Media</span></div>
+    <nav class="pipeline" aria-label="Funnel progress">
+      <span class="pipeline__step is-done"><span class="pipeline__dot"></span>Apply</span>
+      <span class="pipeline__track is-filled"></span>
+      <span class="pipeline__step is-active"><span class="pipeline__dot"></span>The Engine</span>
+      <span class="pipeline__track"></span>
+      <span class="pipeline__step"><span class="pipeline__dot"></span>Confirmed</span>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- 1. Hero -->
+  <section class="band band--ink">
+    <div class="wrap">
+      <div class="eyebrow">For <span data-fill="name" data-fallback="you"></span> — the system, in full</div>
+      <h1 style="max-width: 16ch;">Hey <span data-fill="name" data-fallback="there"></span>, here's the engine behind that last email.</h1>
+      <p class="lead" style="font-size: var(--fs-lead);">You just walked through a working version of it. The Outbound Engine is the done-with-you system that builds, scores, and routes your outreach automatically — so every lead gets the right message, and only the right ones land on your calendar.</p>
+      <a href="#apply" class="btn btn--brass" style="margin-top: var(--space-3);">
+        See if it fits your offer
+        <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- 2. Problem -->
+  <section class="band band--bone">
+    <div class="wrap">
+      <div class="eyebrow">What's actually broken</div>
+      <h2 style="max-width: 18ch; margin-bottom: var(--space-4);">Outreach isn't the problem. Unsorted outreach is.</h2>
+      <div class="proofgrid">
+        <div class="proof">
+          <p class="proof__quote" style="font-style:normal;">Every lead gets the same message, whether they're ready to buy or just curious.</p>
+        </div>
+        <div class="proof">
+          <p class="proof__quote" style="font-style:normal;">Good leads sit in an inbox for two days before anyone notices they're hot.</p>
+        </div>
+        <div class="proof">
+          <p class="proof__quote" style="font-style:normal;">There's no system deciding who gets a call and who gets nurtured — just whoever you happen to see first.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Mechanism -->
+  <section class="band band--ink">
+    <div class="wrap">
+      <div class="eyebrow">How the engine works</div>
+      <h2 style="max-width: 16ch; margin-bottom: var(--space-4);">Four moving parts, one outcome: the right call, every time.</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step__num">1</div>
+          <div><h3 style="font-size:1.15rem;">Identify</h3><p class="lead">Define the exact buyer your offer is built for, so every message lands on someone who can actually say yes.</p></div>
+        </div>
+        <div class="step">
+          <div class="step__num">2</div>
+          <div><h3 style="font-size:1.15rem;">Reach</h3><p class="lead">Cold email and DM sequences engineered to open a conversation, not demand one.</p></div>
+        </div>
+        <div class="step">
+          <div class="step__num">3</div>
+          <div><h3 style="font-size:1.15rem;">Qualify</h3><p class="lead">A scoring layer reads every reply and routes hot leads to a booking link, the rest to nurture — automatically.</p></div>
+        </div>
+        <div class="step">
+          <div class="step__num">4</div>
+          <div><h3 style="font-size:1.15rem;">Convert</h3><p class="lead">A scripted 15-minute call that closes high-ticket offers without sounding like a pitch.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Proof -->
+  <section class="band band--bone">
+    <div class="wrap">
+      <div class="eyebrow">What it sounds like in practice</div>
+      <h2 style="max-width: 18ch; margin-bottom: var(--space-4);">Built by people who run outreach for a living.</h2>
+      <div class="proofgrid">
+        <div class="proof">
+          <p class="proof__quote">"I stopped guessing which leads to follow up with. The system tells me before I even open the inbox."</p>
+          <p class="proof__who">J. Martinez — Business Coach</p>
+        </div>
+        <div class="proof">
+          <p class="proof__quote">"Our close rate didn't change because we got better at selling. It changed because we stopped wasting calls."</p>
+          <p class="proof__who">R. Okafor — Marketing Agency</p>
+        </div>
+        <div class="proof">
+          <p class="proof__quote">"It's the difference between sending messages and running a pipeline."</p>
+          <p class="proof__who">S. Pillai — Info Product Seller</p>
+        </div>
+      </div>
+      <p class="note" style="margin-top: var(--space-3);">Illustrative — swapped for your real results once you're live.</p>
+    </div>
+  </section>
+
+  <!-- 5. Offer stack -->
+  <section class="band band--ink">
+    <div class="wrap">
+      <div class="eyebrow">What's included</div>
+      <h2 style="max-width: 16ch; margin-bottom: var(--space-4);">Everything the engine needs to run.</h2>
+      <div class="proofgrid">
+        <div class="card">
+          <div class="eyebrow">Outreach</div>
+          <h3 style="font-size:1.1rem;">Cold email + DM scripts</h3>
+          <p class="lead" style="margin-top:0.5em;">Written for your offer, not a generic swipe file.</p>
+        </div>
+        <div class="card">
+          <div class="eyebrow">Routing</div>
+          <h3 style="font-size:1.1rem;">Lead-scoring logic</h3>
+          <p class="lead" style="margin-top:0.5em;">The same engine that just decided what to show you.</p>
+        </div>
+        <div class="card">
+          <div class="eyebrow">Follow-up</div>
+          <h3 style="font-size:1.1rem;">Booking + nurture sequences</h3>
+          <p class="lead" style="margin-top:0.5em;">Hot leads get booked. Everyone else gets kept warm.</p>
+        </div>
+        <div class="card">
+          <div class="eyebrow">Closing</div>
+          <h3 style="font-size:1.1rem;">15-minute call script</h3>
+          <p class="lead" style="margin-top:0.5em;">Built for a single goal: a clear yes or no.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. FAQ -->
+  <section class="band band--bone">
+    <div class="wrap" style="max-width: 760px;">
+      <div class="eyebrow">Before you apply</div>
+      <h2 style="margin-bottom: var(--space-3);">Questions worth answering upfront.</h2>
+      <div class="faq">
+        <div class="faq__item">
+          <div class="faq__q">Is this just a pack of templates?</div>
+          <p class="faq__a">No — templates are the words. This is the routing logic that decides which words a given lead sees, and when.</p>
+        </div>
+        <div class="faq__item">
+          <div class="faq__q">How long does setup take?</div>
+          <p class="faq__a">Most builds go live within a single sitting. You're standing on proof of that right now — this page itself runs end to end.</p>
+        </div>
+        <div class="faq__item">
+          <div class="faq__q">Will it work for my niche?</div>
+          <p class="faq__a">It's built for coaches, info product sellers, and agencies selling offers people get on a call for, not a cart.</p>
+        </div>
+        <div class="faq__item">
+          <div class="faq__q">I'm not technical — does that matter?</div>
+          <p class="faq__a">No. We handle the build. You handle the calls it sends you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Final CTA / apply -->
+  <section class="band band--ink" id="apply">
+    <div class="wrap grid-2">
+      <div>
+        <div class="eyebrow">Last step</div>
+        <h2 style="max-width: 14ch;">Ready to put it to work?</h2>
+        <p class="lead">Apply for a 15-minute strategy call. We'll look at your offer and tell you straight whether the Engine fits — no pitch if it doesn't.</p>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: var(--space-3); font-size:1.2rem;">Apply for a strategy call</h3>
+        <form id="apply-form" novalidate>
+          <div class="field" data-field="name">
+            <label for="apply-name">First name</label>
+            <input type="text" id="apply-name" name="name" autocomplete="given-name" required>
+            <div class="field__msg"></div>
+          </div>
+          <div class="field" data-field="email">
+            <label for="apply-email">Email</label>
+            <input type="email" id="apply-email" name="email" autocomplete="email" required>
+            <div class="field__msg"></div>
+          </div>
+          <div class="field">
+            <label for="apply-offer">What do you sell? (optional)</label>
+            <input type="text" id="apply-offer" name="offer" placeholder="e.g. high-ticket coaching">
+          </div>
+          <button type="submit" class="btn btn--brass btn--block">
+            Apply for a Strategy Call
+            <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <p class="note" style="margin-top: var(--space-2); margin-bottom:0;">Takes 90 seconds. We reply within one business day.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 Ambizion Media</span>
+    <span class="note">Demo funnel — built to show what we build for clients.</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var params = new URLSearchParams(window.location.search);
+    var nameInput = document.getElementById('apply-name');
+    var emailInput = document.getElementById('apply-email');
+    if (params.get('name')) nameInput.value = params.get('name');
+    if (params.get('email')) emailInput.value = params.get('email');
+
+    wireStepForm('apply-form', 'thankyou.html', ['apply-offer']);
+  });
+</script>
+</body>
+</html>
