@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Outbound Engine — Free 7-Day System | Ambizion Media</title>
+<meta name="description" content="The 7-day outbound system coaches and agencies use to book qualified strategy calls — free.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <div class="brandmark">Ambizion <span>Media</span></div>
+    <nav class="pipeline" aria-label="Funnel progress">
+      <span class="pipeline__step is-active"><span class="pipeline__dot"></span>Apply</span>
+      <span class="pipeline__track"></span>
+      <span class="pipeline__step"><span class="pipeline__dot"></span>The Engine</span>
+      <span class="pipeline__track"></span>
+      <span class="pipeline__step"><span class="pipeline__dot"></span>Confirmed</span>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="band band--bone">
+    <div class="wrap grid-2">
+      <div>
+        <div class="eyebrow">Free — 7-day system</div>
+        <h1>Stop pitching strangers.<br>Build the <em>engine</em> instead.</h1>
+        <p class="lead">The exact 7-day outbound system we used to fill our own calendar with qualified strategy calls — cold email scripts, DM sequences, and the lead-scoring logic behind them. Free, no pitch first.</p>
+        <div style="display:flex; gap: var(--space-2); flex-wrap:wrap; margin-top: var(--space-3);">
+          <span class="tag">No fluff</span>
+          <span class="tag">Built for coaches &amp; agencies</span>
+          <span class="tag">Set up in one sitting</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="eyebrow">Get instant access</div>
+        <h3 style="margin-bottom: var(--space-3);">Send me the Engine</h3>
+        <form id="optin-form" novalidate>
+          <div class="field" data-field="name">
+            <label for="name">First name</label>
+            <input type="text" id="name" name="name" autocomplete="given-name" required>
+            <div class="field__msg"></div>
+          </div>
+          <div class="field" data-field="email">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+            <div class="field__msg"></div>
+          </div>
+          <button type="submit" class="btn btn--brass btn--block">
+            Get the Outbound Engine
+            <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <p class="note" style="margin-top: var(--space-2); margin-bottom:0;">One email. No spam. Unsubscribe anytime.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 Ambizion Media</span>
+    <span class="note">Demo funnel — built to show what we build for clients.</span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    wireStepForm('optin-form', 'sales.html');
+  });
+</script>
+</body>
+</html>
