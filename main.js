@@ -7,7 +7,7 @@
   'use strict';
 
   /* ---- PASTE YOUR GETFORM ENDPOINT HERE ---- */
-  var GETFORM_URL = 'https://getform.io/f/abc123xyz';';
+ var GETFORM_URL = 'https://forminit.com/f/lbpwvfr22jj';
   /* ----------------------------------------- */
 
   function getParam(key) {
